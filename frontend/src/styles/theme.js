@@ -1,0 +1,63 @@
+const theme = {
+  colors: {
+    bgPrimary: '#0a0a0a',
+    bgSecondary: '#111111',
+    bgCard: '#181818',
+    bgCardHover: '#1f1f1f',
+    bgElevated: '#222222',
+    textPrimary: '#f5f0eb',
+    textSecondary: '#a09890',
+    textMuted: '#6b6560',
+    accent: '#e8a849',
+    accentWarm: '#d4713a',
+    accentGlow: 'rgba(232, 168, 73, 0.15)',
+    accentSoft: '#f5d9a8',
+    green: '#5cb270',
+    greenSoft: 'rgba(92, 178, 112, 0.15)',
+    red: '#e05555',
+    blue: '#5b8def',
+    blueSoft: 'rgba(91, 141, 239, 0.12)',
+    border: 'rgba(255, 255, 255, 0.06)',
+    borderHover: 'rgba(255, 255, 255, 0.12)',
+    white: '#ffffff',
+    black: '#000000',
+  },
+  fonts: {
+    display: "'Playfair Display', Georgia, serif",
+    body: "'DM Sans', -apple-system, sans-serif",
+    accent: "'Instrument Serif', Georgia, serif",
+  },
+  radius: {
+    sm: '8px',
+    md: '14px',
+    lg: '20px',
+    xl: '28px',
+    full: '100px',
+  },
+  shadows: {
+    card: '0 2px 20px rgba(0,0,0,0.3)',
+    hover: '0 8px 40px rgba(0,0,0,0.5)',
+    accent: '0 4px 24px rgba(232, 168, 73, 0.35)',
+  },
+  transitions: {
+    smooth: 'cubic-bezier(0.22, 1, 0.36, 1)',
+    default: 'all 0.3s cubic-bezier(0.22, 1, 0.36, 1)',
+    fast: 'all 0.2s ease',
+  },
+  breakpoints: {
+    mobile: '768px',
+    tablet: '1024px',
+    desktop: '1400px',
+  },
+  spacing: {
+    xs: '4px',
+    sm: '8px',
+    md: '16px',
+    lg: '24px',
+    xl: '32px',
+    xxl: '48px',
+    section: '100px',
+  },
+};
+
+export default theme;
